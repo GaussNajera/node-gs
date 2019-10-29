@@ -1,15 +1,16 @@
 {
-  "name": "gs",
+  "name": "napi",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
     "dev": "nodemon app.js"
   },
-  "author": "",
+  "author": "GN",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "nodemon": "^1.19.2"
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.4"
   }
 }
