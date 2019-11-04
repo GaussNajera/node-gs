@@ -1,0 +1,42 @@
+div{
+    display:grid
+}
+
+#main-div{
+    width:600px;
+    height:600px;
+    background-color: #FF00FF;    
+    grid-template-columns: 200px 200px 200px;
+    padding: 5px;
+}
+
+#col{
+    background-color: #ffff00;
+    border: 5px solid rgb(255, 0, 255);
+}
+
+#item{
+    grid-template-columns: 33% 33% 33%;
+    background-color: #00ffff
+}
+
+#middle-item{
+    background-color: #00ffff;
+    border-top: 10px solid rgb(255, 0, 255);
+    border-bottom: 10px solid rgb(255, 0, 255);
+    grid-template-columns: 33% 33% 33%;
+}
+
+#min-col-middle{
+    border-left: 3px solid rgba(255, 255, 0, 0.8);
+    border-right: 3px solid rgba(255, 255, 0, 0.8);
+}
+
+#min-row-middle{
+    border-top: 3px solid rgba(255, 255, 0, 0.8);
+    border-bottom: 3px solid rgba(255, 255, 0, 0.8);
+}
+
+
+
+
